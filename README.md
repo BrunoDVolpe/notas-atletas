@@ -18,11 +18,11 @@ Criar uma função capaz de receber uma matriz de objetos contendo o nome do atl
 
 ## Solução do Problema:
 
-- Desenvolvimento da classe CompeticaoGinasticaArtistica(atletas).
+- Desenvolvimento da função competicaoAlunos(atletas).
 
-### Entrada da Classe: argumento
+### Entrada da Função: argumento
 
-- O argumento de criação da classe, "atletas" é uma matriz de objetos. Cada objeto contém nome (string) e matriz de notas (números).
+- O argumento da função é uma matriz de objetos. Cada objeto contém nome (string) e matriz de notas (números).
 
 ###### Exemplo de entrada:
 
@@ -50,13 +50,10 @@ Criar uma função capaz de receber uma matriz de objetos contendo o nome do atl
 <br>Notas Obtidas: 7,8,9.33,10,10
 <br>Média Válida: 9.11
 
-### Uso da classe
+### Uso da Função
 
-- Para usar, deve-se criar uma nova instância da classe CompeticaoGinasticaArtistica passando a lista dos atletas conforme a entrada descrita acima.
-> let competicaoAlunos = new CompeticaoGinasticaArtistica(atletas)
-
-- Para exibir o resultado, basta chamar o método obterResultados() que exibirá no console o resultado dos alunos.
-> competicaoAlunos.obterResultados();
+- Para usar a função e ter os resultados, basta chamar a função com o argumento contendo a lista dos atletas, conforme a entrada descrita acima.
+> competicaoAlunos(atletas)
 
 ## Tecnologias
 
